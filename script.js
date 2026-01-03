@@ -463,4 +463,49 @@ const AestheticGym = () => {
         // Footer
         React.createElement('footer', { className: "bg-black border-t border-gray-800 py-12 px-4" },
             React.createElement('div', { className: "max-w-7xl mx-auto" },
-                React.createElement('div', { className:
+                React.createElement('div', { className: "grid grid-cols-1 md:grid-cols-3 gap-8 mb-8" },
+                    React.createElement('div', null,
+                        React.createElement('div', { className: "flex items-center space-x-3 mb-4" },
+                            React.createElement('img', { src: "https://i.imgur.com/8QZ5yXg.png", alt: "Aesthetic Gym", className: "w-10 h-10" }),
+                            React.createElement('span', { className: "text-xl font-bold text-gray-200 tracking-tight" }, 'AESTHETIC GYM')
+                        ),
+                        React.createElement('p', { className: "text-gray-500 leading-relaxed" }, 'Transform your body and mind in our premium training facility. Excellence is our standard.')
+                    ),
+                    React.createElement('div', null,
+                        React.createElement('h4', { className: "text-gray-200 font-bold mb-4 tracking-wide" }, 'QUICK LINKS'),
+                        React.createElement('div', { className: "space-y-2" },
+                            ['home', 'services', 'gallery', 'certificates', 'contact'].map(link =>
+                                React.createElement('button', {
+                                    key: link,
+                                    onClick: () => scrollToSection(link),
+                                    className: "block text-gray-500 hover:text-gray-300 transition-colors capitalize"
+                                }, link)
+                            )
+                        )
+                    ),
+                    React.createElement('div', null,
+                        React.createElement('h4', { className: "text-gray-200 font-bold mb-4 tracking-wide" }, 'FOLLOW US'),
+                        React.createElement('div', { className: "flex gap-4" },
+                            React.createElement('a', { href: "#", className: "text-gray-500 hover:text-gray-300 transition-all transform hover:scale-110" }, 
+                                React.createElement(Icon, { name: 'instagram' })
+                            ),
+                            React.createElement('a', { href: "#", className: "text-gray-500 hover:text-gray-300 transition-all transform hover:scale-110" }, 
+                                React.createElement(Icon, { name: 'facebook' })
+                            ),
+                            React.createElement('a', { href: "#", className: "text-gray-500 hover:text-gray-300 transition-all transform hover:scale-110" }, 
+                                React.createElement(Icon, { name: 'twitter' })
+                            )
+                        )
+                    )
+                ),
+                React.createElement('div', { className: "border-t border-gray-800 pt-8 text-center text-gray-600 text-sm" },
+                    React.createElement('p', null, '© 2026 Aesthetic Gym. All rights reserved. Built for excellence.')
+                )
+            )
+        )
+    );
+};
+
+// Render the app
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(React.createElement(AestheticGym));
