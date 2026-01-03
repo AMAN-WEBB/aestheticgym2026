@@ -111,7 +111,7 @@ const AestheticGym = () => {
 
         try {
             // Replace YOUR_FORM_ID with your actual Formspree form ID
-            const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+            const response = await fetch('https://formspree.io/f/xjgkonea', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -171,7 +171,7 @@ const AestheticGym = () => {
                         onClick: () => scrollToSection('home')
                     },
                         React.createElement('img', { 
-                            src: "https://i.imgur.com/8QZ5yXg.png",
+                            src: "./logo.png",
                             alt: "Aesthetic Gym",
                             className: "w-12 h-12 transition-transform hover:scale-110"
                         }),
@@ -223,7 +223,7 @@ const AestheticGym = () => {
             }),
             React.createElement('div', { className: "relative z-10 text-center px-4 max-w-5xl mx-auto" },
                 React.createElement('img', {
-                    src: "https://i.imgur.com/8QZ5yXg.png",
+                    src: "./logo.png",
                     alt: "Aesthetic Gym",
                     className: "w-32 h-32 mx-auto mb-8"
                 }),
@@ -466,7 +466,7 @@ const AestheticGym = () => {
                 React.createElement('div', { className: "grid grid-cols-1 md:grid-cols-3 gap-8 mb-8" },
                     React.createElement('div', null,
                         React.createElement('div', { className: "flex items-center space-x-3 mb-4" },
-                            React.createElement('img', { src: "https://i.imgur.com/8QZ5yXg.png", alt: "Aesthetic Gym", className: "w-10 h-10" }),
+                            React.createElement('img', { src: "./logo.png", alt: "Aesthetic Gym", className: "w-10 h-10" }),
                             React.createElement('span', { className: "text-xl font-bold text-gray-200 tracking-tight" }, 'AESTHETIC GYM')
                         ),
                         React.createElement('p', { className: "text-gray-500 leading-relaxed" }, 'Transform your body and mind in our premium training facility. Excellence is our standard.')
