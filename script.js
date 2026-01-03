@@ -445,7 +445,7 @@ const AestheticGym = () => {
                             React.createElement('h3', { className: "text-xl font-bold text-gray-100 mb-4" }, 'FIND US'),
                             React.createElement('div', { className: "h-64 rounded overflow-hidden" },
                                 React.createElement('iframe', {
-                                    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.3748193741895!2d78.55849507542552!3d25.451896877571033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397776f5b0000001%3A0x1234567890abcdef!2sSundar%20Vihar%20Colony%2C%20Civil%20Lines%2C%20Jhansi%2C%20Uttar%20Pradesh%20284001!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin",
+                                    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.08316645425!2d78.56269897476335!3d25.4438005216694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39777174ee9dde5b%3A0x78df23f030ef4eaa!2sAesthetic%20Gym!5e1!3m2!1sen!2sin!4v1767444588467!5m2!1sen!2sin",
                                     width: "100%",
                                     height: "100%",
                                     style: { border: 0 },
